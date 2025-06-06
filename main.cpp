@@ -190,7 +190,7 @@ class RBTree {
             Node* left = nullptr;
             Node* right = nullptr;
             Node* parent = nullptr;
-            explicit Node(Guest  v) : data(std::move(v)) {}
+            explicit Node(Guest  v) : data(v) {}
         };
 
         /// @brief Построить дерево из массива.
