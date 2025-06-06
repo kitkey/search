@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Класс RBTree</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_r_b_tree.html','','class_r_b_tree-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Класс RBTree</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Красно-чёрное дерево поиска по полю <a class="el" href="struct_guest.html#a6201a4bba8c20ca66c2c84c363be2e18" title="Стоимость проживания">Guest::full_name</a>.  
+ <a href="#details">Подробнее...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:Node" id="r_Node"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_r_b_tree_1_1_node.html">Node</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Узел красно-черного дерева.  <a href="class_r_b_tree_1_1_node.html#details">Подробнее...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a48492429e03668290ad275a780cf311b" id="r_a48492429e03668290ad275a780cf311b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48492429e03668290ad275a780cf311b">RBTree</a> (<a class="el" href="struct_guest.html">Guest</a> *array, size_t size)</td></tr>
+<tr class="memdesc:a48492429e03668290ad275a780cf311b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Построить дерево из массива.  <br /></td></tr>
+<tr class="memitem:ac23d0630105fc806b3cd4bd7f4149602" id="r_ac23d0630105fc806b3cd4bd7f4149602"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23d0630105fc806b3cd4bd7f4149602">leftRotate</a> (<a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *x)</td></tr>
+<tr class="memdesc:ac23d0630105fc806b3cd4bd7f4149602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Левое вращение вокруг узла x.  <br /></td></tr>
+<tr class="memitem:aa41d1da464f8b4d39f8ee597195caedb" id="r_aa41d1da464f8b4d39f8ee597195caedb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa41d1da464f8b4d39f8ee597195caedb">rightRotate</a> (<a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *y)</td></tr>
+<tr class="memdesc:aa41d1da464f8b4d39f8ee597195caedb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Правое вращение вокруг узла x.  <br /></td></tr>
+<tr class="memitem:a0bf1b761d3b801783be90fa287e05e29" id="r_a0bf1b761d3b801783be90fa287e05e29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf1b761d3b801783be90fa287e05e29">fixInsertion</a> (<a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *z)</td></tr>
+<tr class="memdesc:a0bf1b761d3b801783be90fa287e05e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Восстановление свойств после вставки узла  <br /></td></tr>
+<tr class="memitem:aa0276624f0ed2ee43366947701f9bf55" id="r_aa0276624f0ed2ee43366947701f9bf55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0276624f0ed2ee43366947701f9bf55">insert</a> (const <a class="el" href="struct_guest.html">Guest</a> &amp;value)</td></tr>
+<tr class="memdesc:aa0276624f0ed2ee43366947701f9bf55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вставка узла  <br /></td></tr>
+<tr class="memitem:ac2ce1bf027c08fd4bcb78446f9e965f4" id="r_ac2ce1bf027c08fd4bcb78446f9e965f4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_guest.html">Guest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2ce1bf027c08fd4bcb78446f9e965f4">search_all</a> (const std::string &amp;key) const</td></tr>
+<tr class="memdesc:ac2ce1bf027c08fd4bcb78446f9e965f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Поиск по узлам  <br /></td></tr>
+<tr class="memitem:a281d867c6356a11f3b0784d1559f899c" id="r_a281d867c6356a11f3b0784d1559f899c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a281d867c6356a11f3b0784d1559f899c">search</a> (<a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *node, const std::string &amp;key, std::vector&lt; <a class="el" href="struct_guest.html">Guest</a> &gt; &amp;results) const</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a4f6043c7ebe229240f90c9f62ac5aff9" id="r_a4f6043c7ebe229240f90c9f62ac5aff9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f6043c7ebe229240f90c9f62ac5aff9">root</a></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Красно-чёрное дерево поиска по полю <a class="el" href="struct_guest.html#a6201a4bba8c20ca66c2c84c363be2e18" title="Стоимость проживания">Guest::full_name</a>. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Конструктор(ы)</h2>
+<a id="a48492429e03668290ad275a780cf311b" name="a48492429e03668290ad275a780cf311b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48492429e03668290ad275a780cf311b">&#9670;&#160;</a></span>RBTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RBTree::RBTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_guest.html">Guest</a> *</td>          <td class="paramname"><span class="paramname"><em>array</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Построить дерево из массива. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">array</td><td>исходный массив </td></tr>
+    <tr><td class="paramname">size</td><td>количество элементов </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Методы</h2>
+<a id="a0bf1b761d3b801783be90fa287e05e29" name="a0bf1b761d3b801783be90fa287e05e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf1b761d3b801783be90fa287e05e29">&#9670;&#160;</a></span>fixInsertion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RBTree::fixInsertion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *</td>          <td class="paramname"><span class="paramname"><em>z</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Восстановление свойств после вставки узла </p>
+
+</div>
+</div>
+<a id="aa0276624f0ed2ee43366947701f9bf55" name="aa0276624f0ed2ee43366947701f9bf55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0276624f0ed2ee43366947701f9bf55">&#9670;&#160;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RBTree::insert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_guest.html">Guest</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Вставка узла </p>
+
+</div>
+</div>
+<a id="ac23d0630105fc806b3cd4bd7f4149602" name="ac23d0630105fc806b3cd4bd7f4149602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23d0630105fc806b3cd4bd7f4149602">&#9670;&#160;</a></span>leftRotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RBTree::leftRotate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Левое вращение вокруг узла x. </p>
+
+</div>
+</div>
+<a id="aa41d1da464f8b4d39f8ee597195caedb" name="aa41d1da464f8b4d39f8ee597195caedb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41d1da464f8b4d39f8ee597195caedb">&#9670;&#160;</a></span>rightRotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RBTree::rightRotate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *</td>          <td class="paramname"><span class="paramname"><em>y</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Правое вращение вокруг узла x. </p>
+
+</div>
+</div>
+<a id="a281d867c6356a11f3b0784d1559f899c" name="a281d867c6356a11f3b0784d1559f899c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a281d867c6356a11f3b0784d1559f899c">&#9670;&#160;</a></span>search()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RBTree::search </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_r_b_tree_1_1_node.html">Node</a> *</td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_guest.html">Guest</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>results</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2ce1bf027c08fd4bcb78446f9e965f4" name="ac2ce1bf027c08fd4bcb78446f9e965f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2ce1bf027c08fd4bcb78446f9e965f4">&#9670;&#160;</a></span>search_all()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="struct_guest.html">Guest</a> &gt; RBTree::search_all </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Поиск по узлам </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Данные класса</h2>
+<a id="a4f6043c7ebe229240f90c9f62ac5aff9" name="a4f6043c7ebe229240f90c9f62ac5aff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f6043c7ebe229240f90c9f62ac5aff9">&#9670;&#160;</a></span>root</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_r_b_tree_1_1_node.html">Node</a>* RBTree::root</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>D:/searchCtest/<a class="el" href="main_8cpp.html">main.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_r_b_tree.html">RBTree</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>
