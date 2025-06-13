@@ -337,7 +337,7 @@ class HashTable {
 
         /// @brief хеш-функция
         long long int hash(const std::string& key) const {
-            long long MOD = 2^64;
+            long long MOD = 1000000;
             const int p = 53;
             long long hash = 0, p_pow = 1;
             for (size_t i = 0; i < key.length(); ++i)
